@@ -12,3 +12,9 @@
 4. Добавлены индексы на различные поля в базе, после этого скорость выполнения запросов (из прошлого пункта и не только) возросла в 3-10 раз в зависимости от запроса (для измерения использовался .explain("executionStats).executionStats)
 5. Пример: запрос на получение спортзалов из п.3 выполнялся 240 мс, а после добавления индекса на поле "categories" - 26 мс
 6. Видим, что индексы существенно ускоряют выполнение запросов в базу
+
+### **Скриншоты**
+![image](https://user-images.githubusercontent.com/56634370/157679861-2744acf6-64c5-4313-8761-fd02f506b21d.png)
+![image](https://user-images.githubusercontent.com/56634370/157679940-c8796468-686b-4f34-aaf9-315361f08d5f.png)
+![image](https://user-images.githubusercontent.com/56634370/157679989-f9122e36-dd16-4f8e-94db-6a26feec0a7c.png)
+![image](https://user-images.githubusercontent.com/56634370/157680099-92163934-aa87-4609-91e1-7bbb51dbf2f9.png)

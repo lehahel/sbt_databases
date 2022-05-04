@@ -1,0 +1,37 @@
+cpu_temperature { device="device1" } 56
+uptime_ms { device="device1" } 25
+upload_video_queue_bytes { device="device1" } 990
+
+cpu_temperature { device="device1" } 57
+uptime_ms { device="device1" } 29
+upload_video_queue_bytes { device="device1" } 1034
+
+cpu_temperature { device="device1" } 60
+uptime_ms { device="device1" } 120
+upload_video_queue_bytes { device="device1" } 1501
+
+
+cpu_temperature { device="device2" } 56
+uptime_ms { device="device2" } 25
+upload_video_queue_bytes { device="device1" } 990
+
+cpu_temperature { device="device2" } 57
+uptime_ms { device="device2" } 29
+upload_video_queue_bytes { device="device2" } 1034
+
+cpu_temperature { device="device2" } 60
+uptime_ms { device="device2" } 120
+upload_video_queue_bytes { device="device2" } 1501
+
+
+cpu_temperature { device="device3" } 56
+uptime_ms { device="device3" } 25
+upload_video_queue_bytes { device="device3" } 990
+
+cpu_temperature { device="device3" } 57
+uptime_ms { device="device3" } 29
+upload_video_queue_bytes { device="device3" } 1034
+
+cpu_temperature { device="device3" } 60
+uptime_ms { device="device3" } 120
+upload_video_queue_bytes { device="device3" } 1501
